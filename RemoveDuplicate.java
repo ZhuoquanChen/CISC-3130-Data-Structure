@@ -75,17 +75,17 @@ public class LinkedList
 //-------------------------------------------------------------------------------------------------------------
 
 public static void main(String[] args) 
-	{
-		LinkedList ll = new LinkedList();
-		ll.insertFirst(6);
-		ll.insertFirst(8);
-		ll.insertFirst(6);
-		ll.insertFirst(1);
-		ll.insertFirst(5);
-		ll.insertFirst(6);
-		ll.displayList();
-		System.out.println();
-		ll.removeDuplicate();
-		ll.displayList();
+{
+	LinkedList ll = new LinkedList();
+	ll.insertFirst(6);
+	ll.insertFirst(8);
+	ll.insertFirst(6);
+	ll.insertFirst(1);
+	ll.insertFirst(5);
+	ll.insertFirst(6);
+	ll.displayList();
+	System.out.println();
+	ll.removeDuplicate();
+	ll.displayList();
 
-	}
+}
